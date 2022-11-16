@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+ul{
+    background-color: slategrey;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+ul li:hover{
+    background-color: tomato;
+}
+
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-img{
+    height: 350px;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center cover;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.content h1 {
+    color: tomato;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.content img {
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 300px;
+    width: 330px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.content img:hover{
+    box-shadow: 3px 3px 10px rgb(251, 81, 24);
+    transform: translateX(3px);
+    background-color: rgb(246, 246, 246);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.container h2{
+    margin: 20px auto;
+    font-size: 30px;;
+    color: red;
+}
+
+.features{
+    display: flex;
+}
+
+.features  .feature{
+    text-align: center;
+    background-color: aliceblue;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.features  .feature:hover{
+    box-shadow: 3px 3px 10px rgb(24, 141, 251);
+    transform: translateX(3px);
+    background-color: rgb(246, 246, 246);
+}
+
+.features i {
+    padding-top: 15px;
+    font-size: 30px;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    
+}
+
+.features h3{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;;
+
+}
+
+.contact-as{
+    margin: 50px;
+}
+
+.contact-form{
+    width: 600px;;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.contact-form:hover{
+    box-shadow: 3px 3px 10px rgb(42, 165, 85);
+    transform: translateX(3px);
+    background-color: rgb(246, 246, 246);
+}
+
+.contact-form  .input-form{
+    margin-bottom: 20px;
+}
+
+.contact-form  .input-form input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 400px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgb(255, 169, 169);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: palegreen;
+}
+
+.foater i {
+    width: 50px;
+    height: 20px;
+}
+
+.foater h3{
+    color: white;
+    margin: 10px;;
+}
+
+.foater h3 span{
+    color: aqua;
+}
